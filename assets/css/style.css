@@ -348,6 +348,31 @@ color: var(--black);
     color: var(--white);
     font-weight: 700;
 }
+.america-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+}
+.america-img {
+    height: 250px;
+    overflow: hidden;
+}
+.america-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.america-txt p {
+    margin: 20px 0;
+    min-height: 130px;
+}
+.america-txt .contact-btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.america-txt .contact-btn a:hover{
+    border-color: #ef143f;
+    color: var(--pink);
+}
 /* america page css end here */
 /* footer section css end here */
 
