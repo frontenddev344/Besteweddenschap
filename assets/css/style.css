@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --black:#000;
+    --pink:#ef143f;
+    --light-pink:#FF224D;
+    --white:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Blinker", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1300px;
+}
+.ptb-70{
+    padding: 70px 0;
+}
+.ptb-50{
+    padding: 50px 0;
+}
+.ptb-30{
+    padding: 30px 0;
+}
+ p{
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 0;
+}
+h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--pink);
+}
+/* global css end here */
+/* header css start here */
+.site-header {
+    padding: 15px 15px;
+    width: 100%;
+    background:var(--white);
+    box-shadow: rgb(0 0 0 / 14%) 0px 0px 15px;
+   
+}
+.site-header.fixed{
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+.site-logo img {
+    max-width: 90px;
+}
+.toggle, .close {
+    display: none;
+}
+.nav-links ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.site-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul li a{
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    font-family: "Blinker", sans-serif;
+
+}
+.nav-links ul li a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--pink);
+    transition: all 0.3s linear;
+}
+.nav-links ul li a:hover::before, .nav-links ul li a.active::before{
+    width: 100%;
+    
+}
+.nav-links ul li a:hover, .nav-links ul li a.active{
+    color: var(--pink);
+}
+
+/* header css end here */
+
+/* banner section css start here */
+.site-banner{
+    background-image:url(../images/herobanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.site-banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    opacity: 0.3;
+}
+.site-banner .container{
+    height: 100%;
+}
+.banner-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-txt{
+    width: 60%;
+    text-align: center;
+    position: relative;
+}
+.banner-txt h2{
+    font-size: 50px;
+    color: var(--white);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact-btn{
+    margin-top: 50px;
+}
+.contact-btn a{
+font-size: 18px;
+padding: 10px 30px;
+background-color: var(--pink);
+color: var(--white);
+text-transform: capitalize;
+border: 1px solid #ef143f;
+font-family: "Blinker", sans-serif;
+}
+.contact-btn a:hover{
+background-color: transparent;
+border-color: var(--white);
+}
+
+
+
+
+
+/* banner section css end here */
+/* discover section css start here */
+.site-heading{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.site-heading h3{
+    margin-bottom: 15px;
+}
+
+.site-heading {
+    margin-bottom: 30px;
+}
+.discover-wrap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+/* .discover-right{
+    position: ;
+} */
+.discover-wrap .discover-left{
+  padding: 25px;
+  
+}
+.discover-wrap .discover-scroll{
+    position: sticky;
+    top: 30%;
+}
+.discover-left, .discover-right {
+    width: 48%;
+   
+}
+.discover-left p {
+    font-size: 18px;
+}
+.discover-box {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.discover-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.discover-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disclaimer-txt p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.receive{
+    background-image: url(../images/receive-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.receive::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+.receive .site-heading {
+    width: 50%;
+    position: relative;
+
+}
+.receive .site-heading p{
+    color: #fff;
+}
+
+/* discover section css end here */
+/* footer section css start here */
+
+.site-footer{
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+background-color: var(--white);
+}
+
+.footer-logo img {
+    width: 100px;
+}
+.social-icon ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.social-icon ul li a{
+font-size: 30px;
+color: var(--black);
+}
+.social-icon {
+    margin-top: 25px;
+}
+.footer-heading h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-links ul li a:hover{
+    color: var(--light-pink);
+}
+.footer-links ul li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: 600;
+    font-family: "Blinker", sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+
+/* footer section css end here */
+
+/* cookies css star here */
+#cookies-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:var(--white);
+    color: var(--black);
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+    display: none;
+}
+
+#cookies-popup p {
+    margin: 0;
+    color: var(--black);
+}
+
+#cookies-popup button {
+    background-color: var(--pink);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#accept-cookies:hover {
+    background-color: var(--light-pink);
+}
+
+/* cookies css end here */
+
