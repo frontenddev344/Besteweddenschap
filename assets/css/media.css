@@ -1,82 +1,81 @@
 @media(max-width:1200px){
     .banner-txt h2 {
         font-size: 40px;
-    }
+   }
     .site-banner {
         height: 500px;
-    }
-
+   }
     .site-logo img {
         max-width: 80px;
-    }
-    .nav-links ul li a, .discover-left p,  .contact-btn a {
+   }
+    .nav-links ul li a, .discover-left p, .contact-btn a {
         font-size: 16px;
-    }
+   }
     h3 {
         font-size: 30px;
-    }
+   }
     .site-heading {
         width: 80%;
-    }
+   }
     .discover-box {
         height: 250px;
         margin-bottom: 20px;
-    }
+   }
     p {
         font-size: 15px;
-    }
+   }
     .receive .site-heading, .bottom-txt p {
         width: 60%;
-    }
+   }
     .disclaimer-txt p {
         font-size: 13px;
         margin-bottom: 10px;
-    }
+   }
     .footer-logo img {
         width: 85px;
-    }
+   }
     .social-icon ul li a {
         font-size: 25px;
-    }
+   }
     .social-icon {
         margin-top: 20px;
-    }
+   }
     .footer-heading h4 {
         font-size: 22px;
         margin-bottom: 20px;
-    }
+   }
     .footer-links ul li a, .set > a {
         font-size: 14px;
-    }
+   }
     .footer-links ul li {
         margin-bottom: 5px;
-    }
+   }
     .sub-banner-txt h2 {
         font-size: 35px;
-    }
+   }
     .sub-banner {
         height: 350px;
-    }
+   }
     .america-img {
         height: 180px;
-    }
+   }
     .america-txt p {
         min-height: 137px;
-    }
+   }
     .dining-img img {
         height: 250px;
-    }
+   }
 }
 @media(max-width:992px){
     .banner-txt h2 {
         font-size: 35px;
-    }
+   }
     .nav-links ul {
         display: flex;
         gap: 20px;
         align-items: self-start;
         flex-direction: column;
-    }
+   }
     .nav-links {
         position: absolute;
         top: 0;
@@ -87,207 +86,205 @@
         height: 100vh;
         padding: 50px 30px;
         transform: translateX(-100%);
-       
-}
-.menuToggle .nav-links{
-    transform: translateX(0%);
-
-}
+   }
+    .menuToggle .nav-links{
+        transform: translateX(0%);
+   }
     .nav-links ul li a {
         color: #fff;
-    }
+   }
     .toggle, .close {
         display: block;
-    }
+   }
     .close {
         position: absolute;
         top: 15px;
         right: 20px;
         color: #fff;
         font-size: 20px;
-    }
+   }
     .toggle {
         font-size: 22px;
-    }
+   }
 }
 @media(max-width:850px){
     .banner-txt {
         width: 75%;
-    }
+   }
     .banner-txt h2 {
         font-size: 32px;
-    }
+   }
     .site-banner {
         height: 450px;
-    }
+   }
     .nav-links ul li a, .discover-left p, .contact-btn a {
         font-size: 15px;
-    }
+   }
     .contact-btn a{
         padding: 10px 25px;
-    }
+   }
     h3 {
         font-size: 25px;
-    }
+   }
     .site-heading h3 {
         margin-bottom: 10px;
-    }
+   }
     .nav-links ul li a, .discover-left p, .contact-btn a, p {
         font-size: 14px;
-    }
+   }
     .discover-box {
         height: 200px;
-    }
+   }
     .disclaimer-txt p {
         font-size: 12px;
-    }
+   }
     .footer-links ul li a {
         font-size: 12px;
-    }
+   }
     .footer-heading h4 {
         font-size: 20px;
         margin-bottom: 15px;
-    }
+   }
     .footer-logo img {
         width: 80px;
-    }
+   }
     .ptb-50 {
         padding: 30px 0;
-    }
+   }
     .ptb-70{
         padding: 50px 0;
-    }
+   }
     .site-logo img {
         max-width: 70px;
-    }
+   }
     .sub-banner {
         height: 300px;
-    }
+   }
     .sub-banner-txt h2 {
         font-size: 30px;
-    }
+   }
     .america-txt p {
         min-height: 170px;
         margin: 15px 0;
-    }
+   }
 }
 @media(max-width:767px){
     .privacy-wrap h4 {
         font-size: 18px;
         margin-bottom: 5px;
-    }
+   }
     .banner-txt {
         width: 85%;
-    }
+   }
     .banner-txt h2 {
         font-size: 28px;
-    }
+   }
     .site-banner {
         height: 350px;
-    }
+   }
     h3 {
         font-size: 22px;
-    }
+   }
     .site-heading {
         width: 85%;
-    }
+   }
     .discover-wrap {
         flex-direction: column;
-    }
+   }
     .discover-left, .discover-right {
         width: 100%;
-    }
+   }
     .discover-box {
         height: 250px;
-    }
+   }
     .receive .site-heading, .bottom-txt p {
         width: 85%;
-    }
+   }
     .footer-wrap {
         margin-bottom: 25px;
-    }
+   }
     .sub-banner {
         height: 250px;
-    }
+   }
     .sub-banner-txt h2 {
         font-size: 28px;
-    }
+   }
     .america-img {
         height: 220px;
-    }
+   }
     .america-txt p {
         min-height: auto;
-    }
+   }
     .dining-img img {
         margin-bottom: 10px;
-    }
+   }
     .dining-box:nth-child(3) .row {
         flex-direction: column-reverse;
-    }
+   }
     .america-card {
         margin-bottom: 30px;
-    }
+   }
 }
 @media(max-width:575px){
     .nav-links {
         width: 100%;
-    }
+   }
     .banner-txt h2 {
         font-size: 25px;
-    }
+   }
     .contact-btn {
         margin-top: 30px;
-    }
+   }
     .banner-txt, .site-heading {
         width: 95%;
-    }
+   }
     h3 {
         font-size: 20px;
-    }
+   }
     .nav-links ul li a, .discover-left p, .contact-btn a, p {
         font-size: 13px;
-    }
+   }
     .discover-wrap .discover-left {
         padding: 5px;
-    }
+   }
     .discover-box {
         height: 180px;
-    }
+   }
     .discover-wrap {
         padding: 15px;
-    }
+   }
     .social-icon ul li a {
         font-size: 22px;
-    }
+   }
     .social-icon {
         margin-top: 15px;
-    }
+   }
     .footer-wrap {
         margin-bottom: 15px;
-    }
+   }
     .sub-banner {
         height: 220px;
-    }
+   }
     .sub-banner-txt h2 {
         font-size: 25px;
-    }
+   }
     .america-img {
         height: 200px;
-    }
+   }
     .america-card {
         padding: 10px;
-    }
+   }
     .america-txt .contact-btn {
         margin-top: 25px;
         margin-bottom: 15px;
-    }
+   }
     .dining-img img {
         height: 200px;
-    }
+   }
     .set > a {
         font-size: 12px;
-    }
+   }
     .contact-btn a {
         padding: 8px 20px;
-    }
+   }
 }
