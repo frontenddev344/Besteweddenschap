@@ -352,10 +352,49 @@
 }
  .america-card{
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-     padding: 15px;
+     /* padding: 10px; */
+     height: 400px;
+     position: relative;
+     overflow: hidden;
+     padding: 10px;
+
+     
+}
+.america-wrap{
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.america-card .america-txt {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    background: #000000bf;
+    width: 90%;
+    transform: translateX(-50%);
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+.america-card:hover .america-txt{
+    left: 20%;
+    bottom: 20%;
+    transform:translate(-17%, -20%)    ;
+    -webkit-transform:translate(-17%, -20%)    ;
+    -moz-transform:translate(-17%, -20%)    ;
+    -ms-transform:translate(-17%, -20%)    ;
+    -o-transform:translate(-17%, -20%)    ;
+}
+.america-txt h4 {
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
 }
  .america-img {
-     height: 250px;
+     height: 100%;
      overflow: hidden;
 }
  .america-img img{
@@ -377,6 +416,9 @@
  .america-txt .contact-btn a:hover, .dining-txt .contact-btn a:hover{
      border-color: #ef143f;
      color: var(--pink);
+}
+section.america-card-wrap .site-heading {
+    width: 80%;
 }
  .dining-txt .contact-btn a{
      display: block;
@@ -403,22 +445,22 @@
      margin: 10px auto;
 }
  .set{
-     position: relative;
-     width: 100%;
-     height: auto;
-     background-color: #f5f5f5;
-     margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition:all 0.5s linear;
 }
  .set > a{
+     background-color: #ef143f;
+     border-radius: 10px;
      display: block;
      padding: 10px 15px;
      text-decoration: none;
-     color: var(--black);
+     color: var(--white);
      font-weight: 600;
      border-bottom: 1px solid #ddd;
-     -webkit-transition:all 0.2s linear;
-     -moz-transition:all 0.2s linear;
-     transition:all 0.2s linear;
+  
 }
  .set > a i{
      float: right;
@@ -477,4 +519,7 @@
      background-color: var(--light-pink);
 }
 /* cookies css end here */
- 
+.america-wrap .america-txt .contact-btn a:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}

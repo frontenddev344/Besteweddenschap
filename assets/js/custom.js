@@ -31,7 +31,7 @@ $(document).ready(function() {
       $(this).removeClass("active");
       $(this)
         .siblings(".content")
-        .slideUp(200);
+        .slideUp(10);
       $(".set > a i")
         .removeClass("fa-minus")
         .addClass("fa-plus");
@@ -45,10 +45,10 @@ $(document).ready(function() {
         .addClass("fa-minus");
       $(".set > a").removeClass("active");
       $(this).addClass("active");
-      $(".content").slideUp(200);
+      $(".content").slideUp(10);
       $(this)
         .siblings(".content")
-        .slideDown(200);
+        .slideDown(10);
     }
   });
 });

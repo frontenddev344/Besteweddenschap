@@ -56,15 +56,24 @@
     .sub-banner {
         height: 350px;
    }
-    .america-img {
+    /* .america-img {
         height: 180px;
-   }
+   } */
     .america-txt p {
         min-height: 137px;
    }
     .dining-img img {
         height: 250px;
    }
+   .america-txt h4 {
+    font-size: 18px;
+}
+.america-card .america-txt {
+    height: 150px;
+}
+.america-card {
+    height: 350px;
+}
 }
 @media(max-width:992px){
     .banner-txt h2 {
@@ -169,6 +178,10 @@
    }
 }
 @media(max-width:767px){
+    .america-card .america-txt {
+        height: auto;
+    }
+  
     .privacy-wrap h4 {
         font-size: 18px;
         margin-bottom: 5px;
@@ -209,9 +222,9 @@
     .sub-banner-txt h2 {
         font-size: 28px;
    }
-    .america-img {
+    /* .america-img {
         height: 220px;
-   }
+   } */
     .america-txt p {
         min-height: auto;
    }
@@ -226,6 +239,12 @@
    }
 }
 @media(max-width:575px){
+    section.america-card-wrap .site-heading {
+        width: 95%;
+    }
+    .america-card {
+        height: 300px;
+    }
     .nav-links {
         width: 100%;
    }
@@ -268,9 +287,9 @@
     .sub-banner-txt h2 {
         font-size: 25px;
    }
-    .america-img {
+    /* .america-img {
         height: 200px;
-   }
+   } */
     .america-card {
         padding: 10px;
    }
