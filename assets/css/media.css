@@ -237,6 +237,9 @@
     .america-card {
         margin-bottom: 30px;
    }
+   .footer-links ul li a {
+    font-size: 14px;
+}
 }
 @media(max-width:575px){
     section.america-card-wrap .site-heading {
@@ -261,7 +264,7 @@
         font-size: 20px;
    }
     .nav-links ul li a, .discover-left p, .contact-btn a, p {
-        font-size: 13px;
+        font-size: 14px;
    }
     .discover-wrap .discover-left {
         padding: 5px;
