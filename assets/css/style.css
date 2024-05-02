@@ -371,13 +371,17 @@
     left: 50%;
     background: #000000bf;
     width: 90%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -5%);
     height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 15px;
     overflow: hidden;
+    -webkit-transform: translate(-50%, -5%);
+    -moz-transform: translate(-50%, -5%);
+    -ms-transform: translate(-50%, -5%);
+    -o-transform: translate(-50%, -5%);
 }
 .america-card:hover .america-txt{
     left: 20%;
