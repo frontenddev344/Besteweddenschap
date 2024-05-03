@@ -63,12 +63,16 @@
      width: 100%;
      background:var(--white);
      box-shadow: rgb(0 0 0 / 14%) 0px 0px 15px;
+     transition: all 0.5s linear;
+
 }
  .fixed-header{
      position: fixed;
      top: 0;
      width: 100%;
      z-index: 999;
+     transition: all 0.5s linear;
+
 }
  .social-icon ul li a:hover{
      color: #ef143f;

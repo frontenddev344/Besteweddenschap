@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
 });
 $(window).scroll(function(){
-  if ($(window).scrollTop() >= 200) {
+  if ($(window).scrollTop() >= 10) {
       $('header').addClass('fixed-header');
   }
   else {
