@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   acceptCookiesBtn.addEventListener("click", function() {
       cookiesPopup.style.display = "none";
-      // You can add code here to set a cookie to remember the user's choice
   });
 });
 $(document).ready(function() {

@@ -9,7 +9,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     transition: all 0.3s linear;
+     /* transition: all 0.3s linear; */
 }
  body{
      margin: 0;
@@ -385,6 +385,8 @@
     -moz-transform: translate(-50%, -5%);
     -ms-transform: translate(-50%, -5%);
     -o-transform: translate(-50%, -5%);
+    transition: all 0.3s linear;
+
 }
 .america-card:hover .america-txt{
     left: 20%;
@@ -408,8 +410,10 @@
      height: 100%;
      width: 100%;
      object-fit: cover;
+     transition: all 0.3s linear;
+
 }
- .america-img:hover img{
+.america-card:hover img{
      transform: scale(1.5);
 }
  .america-txt p {
