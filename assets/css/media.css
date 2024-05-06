@@ -115,6 +115,11 @@
     .toggle {
         font-size: 22px;
    }
+   .am-card-btn {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
 }
 @media(max-width:850px){
     .banner-txt {
@@ -176,6 +181,14 @@
         min-height: 170px;
         margin: 15px 0;
    }
+   .am-card-txt h4 {
+    font-size: 25px;
+}
+.am-card-btn a {
+    font-size: 14px;
+    border-radius: 8px;
+    display: inline-block;
+}
 }
 @media(max-width:767px){
     .america-card .america-txt {
@@ -309,4 +322,13 @@
     .contact-btn a {
         padding: 8px 20px;
    }
+   .am-card-img {
+    height: 200px;
+}
+.am-card-wrap {
+    padding: 10px;
+}
+.am-card-txt h4 {
+    font-size: 22px;
+}
 }
